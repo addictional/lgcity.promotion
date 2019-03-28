@@ -1,0 +1,149 @@
+.promotion{
+	display: block;
+	width: 100%;
+	margin: 50px 0 150px 0 ;
+}
+.promotion label.properties{
+	margin: 10px auto;
+    display: block; 
+    width: 228px;
+    text-align: center;
+}
+.drop-area{
+	overflow: hidden;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border: 4px dashed #000000;
+	border-radius: 5px;
+	margin: 10px auto;
+}
+.drop-area img{
+    margin: auto;
+    display: block;
+}
+.drop-area svg{
+	position: absolute;
+	top: 35%;
+    left: 35%;
+    width: 80px;
+    height: 80px;
+}
+.promotion .close{
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 32px;
+	height: 32px;
+}
+.date-date{
+	width: 98px;
+    text-align: center;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+}
+.date-time{
+	text-align: center;
+    width: 66px;
+    border: none;
+    font-size: 17px;
+}
+.promotion .date{
+	width: 445px;
+	margin: auto;
+	display: flex;
+}
+.date-input{
+	padding: 2px 9px;
+    display: flex;
+    border-color: #736d6d73;
+    border-width: 1px;
+    border-style: inset;
+    border-radius: 6px;
+    margin-right: 6px;
+}
+.date p{
+	margin: 0 7px 0 0;
+	font-size: 20px;
+}
+.promotion .close.active{
+	display: block;
+}
+.promotion .close:hover {
+  	opacity: 1;
+}
+ .promotion .close:before,.promotion .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.promotion .close:before {
+  transform: rotate(45deg);
+}
+.promotion .close:after {
+  transform: rotate(-45deg);
+}
+.promotion svg {
+	cursor: pointer;
+}
+.promotion svg path {
+	pointer-events: none;
+}
+#detail-text{
+	display: none;
+	width: 1065px;
+    margin: 0 auto;
+    height: 500px;
+}
+.promotion select{
+	margin: 0 auto;
+    display: block;
+}
+header,footer{
+	display: none !important;
+}
+.first-order{
+	display : none !important;
+}
+#type:focus option:first-of-type {
+    display: none;
+}
+#discount-amount{
+	text-align: center;
+}
+#discount-amount.percent {
+    width: 38px;
+}
+.error-show{
+	border-color: red;
+	border-style: solid;
+}
+.header-fixed + .wbl-space{
+	display: none !important;
+}
+#season-discount-button{
+	margin: 0 auto;
+	display: block;
+}
+.selectize-control{
+	width: 300px;
+    margin: auto;
+    display: block;
+}
+.promotion label.properties.radio {
+	width: 295px;
+}
+.promotion button{
+    display: block;
+    margin: 0 auto;
+}
+/*.selectize-dropdown{
+	width: 300px;
+    margin: auto;
+    display: block;
+}*/
